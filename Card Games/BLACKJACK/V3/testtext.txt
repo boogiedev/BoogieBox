@@ -1,0 +1,45 @@
+# for _ in range(5):
+#     card = deck.drawCard()
+#     print(card.pretty)
+"""VALIDATES SHUFFLE"""
+# deck.shuffle()
+# for _ in range(2):
+#     card = deck.drawCard()
+#     print(card)
+"""VALIDATES FACES AND ACES"""
+# for _ in range(2):
+#     card = deck.drawCard()
+#     print(card)
+#     print(card.isAce)
+#     print(card.isFace)
+"""VALIDATES NUMERICAL VALUES"""
+# for _ in range(5):
+#     card = deck.drawCard()
+#     print(card.pretty)
+#     print(card.numVal)
+"""VALIDATES FACEDOWN ATTR"""
+# for _ in range(5):
+#     card = deck.drawCard()
+#     card.flipCard()
+#     print(card.pretty)
+#     print(card.numVal)
+
+
+"""PLAYER DRAW TEST"""
+# for _ in range(2):
+#     card = deck.drawCard()
+#     p1.addCard(card)
+# p1.showPrettyHand()
+# print(p1.handTotal)
+# print(p1.isBusted)
+# print(p1.has21)
+# # print(p1.numAces)
+
+# aceH = BlackJackCard("A", "Hearts")
+# kingH = BlackJackCard("K", "Hearts")
+# a = [aceH, kingH]
+# for x in a:
+#     p1.addCard(x)
+#     print(x.numVal)
+# p1.showPrettyHand()
+# print(p1.handTotal)
